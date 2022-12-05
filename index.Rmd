@@ -1,0 +1,55 @@
+---
+title: ""
+---
+
+<img src="files/amory-gethin-web-long.jpg" style="width:33%; padding: 20px; float:left">
+
+<br>
+
+<div class="divhome">
+Welcome to my website!
+</div>
+
+<div class="divhome">
+I am a third-year PhD candidate at the <a target="_blank" href="https://www.parisschoolofeconomics.eu/en/gethin-amory/">Paris School of Economics</a>.
+</div>
+
+<div class="divhome">
+This academic year, I am a visiting student at UC Berkeley. I was a visiting student at the Massachusetts Institute of Technology and at Harvard University in 2021-2022.
+</div>
+
+<div class="divhome">
+My research focuses on topics related to poverty, inequality, and political conflict. I co-created the <a target="_blank" href="https://wpid.world/">World Political Cleavages and Inequality Database</a>. I also contribute to the <a target="_blank" href="https://wid.world/">World Inequality Database</a> project as a World Inequality Lab fellow.
+</div>
+
+<div class="divhome">
+You can <a target="_blank" href="files/pdf/GethinCV.pdf">download my CV here</a>.
+</div>
+
+<div class="divhome">
+You can also find some of my work on my <a target="_blank" href="https://scholar.google.com/citations?user=jzXBKXwAAAAJ&hl=en">Google Scholar profile</a>.
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+<div class="divhome">
+<i class='fa fa-envelope'></i> amory.gethin[at]psemail.eu.
+</div>
+
+<!-- NOTES
+<p class='fa fa-envelope'></p> 
+<a href="https://twitter.com/amorygethin" class="fa fa-twitter"> Twitter</a>
+<h3> </h3>
+ //-->
+
+
+
+
+
+
+
+
+
+
+

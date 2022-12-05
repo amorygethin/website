@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Political Cleavages and Social Inequalities</title>
+
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><b>Amory Gethin</b></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="book.html">Book</a>
+</li>
+<li>
+  <a href="media.html">Media</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Political Cleavages and Social
+Inequalities</h1>
+
+</div>
+
+
+<p>Co-edited with Thomas Piketty and Clara Martínez-Toledano. Harvard
+University Press, 2021.</p>
+<p><a class="link2" href="https://wpid.world/"> Book website: World
+Political Cleavages and Inequality Database </a></p>
+<p><a class="link2" href="https://wpid.world/">
+<img src="files/GethinMartinezPiketty2021Cover.png" style="width:33%; padding: 20px; float:left">
+</a></p>
+<div class="divhome">
+<p><br> Who votes for whom and why? Why has growing inequality in many
+parts of the world not led to renewed class-based conflicts, and seems
+instead to have come with the emergence of new divides over identity and
+integration? News analysts, scholars, and citizens interested in
+exploring those questions inevitably lack relevant data, in particular
+the kinds of data that establish historical and international context.
+Political Cleavages and Social Inequalities provides the missing
+empirical background, collecting and examining a treasure trove of
+information on the dynamics of polarization in modern democracies.</p>
+</div>
+<div class="divhome">
+<p>The chapters draw on a unique set of surveys conducted between 1948
+and 2020 in fifty countries on five continents, analyzing the links
+between voters’ political preferences and socioeconomic characteristics,
+such as income, education, wealth, occupation, religion, ethnicity, age,
+and gender. This analysis sheds new light on how political movements
+succeed in coalescing multiple interests and identities in contemporary
+democracies. It also helps us understand the conditions under which
+conflicts over inequality become politically salient, as well as the
+similarities and constraints of voters supporting ethnonationalist
+politicians like Narendra Modi, Jair Bolsonaro, Marine Le Pen, and
+Donald Trump.</p>
+</div>
+<h2>
+Chapters
+</h2>
+<p>(With links to working paper versions)</p>
+<div class="divresearch">
+<p><a target="_blank" href="https://wpid.world"> Introduction.
+Objectives and Organization of the Book </a></p>
+<p>Amory Gethin, Clara Martínez-Toledano, Thomas Piketty</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wpid.world"> 1. Political Cleavages
+and Social Inequalities in 50 Democracies, 1948-2020 </a></p>
+<p>Amory Gethin, Clara Martínez-Toledano, Thomas Piketty</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="http://piketty.pse.ens.fr/files/Piketty2018.pdf">
+2. Brahmin Left vs Merchant Right: Rising Inequality and the Changing
+Structure of Political Conflict (France, US, UK) </a></p>
+<p>Thomas Piketty</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/document/electoral-cleavages-and-socioeconomic-inequality-in-germany-1949-2017-world-inequality-lab-wp-2020-15/">
+3. Electoral Cleavages and Socioeconomic Inequality in Germany,
+1949-2017 </a></p>
+<p>Fabian Kosse, Thomas Piketty</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/document/changing-party-systems-socio-economic-cleavages-and-nationalism-in-northern-europe-1956-2017-world-inequality-lab-wp-2021-04/">
+4. Changing Party Systems, Socioeconomic Cleavages, and Nationalism in
+Denmark, Finland, Iceland, Norway, and Sweden</p>
+<p></a></p>
+<p>Clara Martínez-Toledano, Alice Sodano</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/wp-content/uploads/2021/02/WorldInequalityLab_WP2021_05_PoliticalCleavages_AusCanNZ.pdf">
+5. Political Cleavages, Class Structures, and the Politics of Old and
+New Minorities in Australia, Canada, and New Zealand</p>
+<p></a></p>
+<p>Amory Gethin</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/document/historical-political-cleavages-and-post-crisis-transformations-in-italy-spain-portugal-and-ireland-1953-2020-world-inequality-lab-wp-2021-01/">
+6. Historical Political Cleavages and Post-Crisis Transformations in
+Italy, Spain, Portugal and Ireland, 1958-2020</p>
+<p></a></p>
+<p>Luis Bauluz, Amory Gethin, Clara Martínez-Toledano, Marc Morgan</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/wp-content/uploads/2021/03/WorldInequalityLab_WP2021_08_PoliticalCleavages_AustriaBelgiumNLSwitzerland.pdf">
+7. Party System Transformation and the Structure of Political Cleavages
+in Austria, Belgium, the Netherlands, and Switzerland</p>
+<p></a></p>
+<p>Carmen Durrer de la Sota, Amory Gethin, Clara Martínez-Toledano</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/document/political-conflict-social-inequality-and-electoral-cleavages-in-central-eastern-europe-1990-2018-world-inequality-lab-wp-2020-25/">
+8. Political Conflict, Social Inequality, and Electoral Cleavages in the
+Czech Republic, Hungary, and Poland, 1990-2018</p>
+<p></a></p>
+<p>Attila Lindner, Filip Novokmet, Thomas Piketty, Tomas Zawisza</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/document/growing-cleavages-in-india-evidence-from-the-changing-structure-of-party-electorates-1962-2014-wid-world-working-paper-2019-05/">
+9. Caste, Class, and the Changing Political Representation of Social
+Inequalities in India, 1962-2019</p>
+<p></a></p>
+<p>Abhijit Banerjee, Amory Gethin, Thomas Piketty</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/wp-content/uploads/2020/08/WorldInequalityLab_WP2020_16_PakistanPoliticalCleavages.pdf">
+10. Social Inequality and the Dynamics of Political and Ethnolinguistic
+Divides in Pakistan, 1970-2018</p>
+<p></a></p>
+<p>Amory Gethin, Sultan Mehmood, Thomas Piketty</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/document/political-cleavages-and-the-representation-of-social-inequalities-in-japan-1953-2017-world-inequality-lab-wp-2021-10/">
+11. Political Cleavages and the Representation of Social Inequalities in
+Japan, 1953-2017</p>
+<p></a></p>
+<p>Amory Gethin</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/document/democratization-and-the-construction-of-class-cleavages-in-thailand-the-philippines-malaysia-and-indonesia-1992-2019-world-inequality-lab-wp-2021-09/">
+12. Democratization and the Construction of Class Cleavages in Thailand,
+the Philippines, Malaysia, and Indonesia, 1992-2019</p>
+<p></a></p>
+<p>Amory Gethin, Thanasak Jenmana</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/wp-content/uploads/2021/02/WorldInequalityLab_WP2021_06_PoliticalCleavages_EastAsia.pdf">
+13. Inequality, Identity, and the Structure of Political Cleavages in
+South Korea, Taiwan, and Hong Kong, 1996-2016</p>
+<p></a></p>
+<p>Carmen Durrer de la Sota, Amory Gethin</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/wp-content/uploads/2021/03/WorldInequalityLab_WP2021_07_PoliticalCleavages_Brazil.pdf">
+14. Democracy and the Politicization of Inequality in Brazil,
+1989-2018</p>
+<p></a></p>
+<p>Amory Gethin, Marc Morgan</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/wp-content/uploads/2021/03/BLMZ2021.pdf">
+15. Social Inequalities, Identity, and Political Cleavages in Argentina,
+Chile, Colombia, Costa Rica, Mexico, and Peru, 1952-2019</p>
+<p></a></p>
+<p>Oscar Barrera, Ana Leiva, Clara Martínez-Toledano, Alvaro
+Zúñiga-Cordero</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/document/extreme-inequality-and-the-structure-of-political-cleavages-in-south-africa-1994-2019-world-inequality-lab-wp-2020-13/">
+16. Extreme Inequality, Elite Transformation, and the Changing Structure
+of Political Cleavages in South Africa, 1994-2019</p>
+<p></a></p>
+<p>Amory Gethin</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/document/social-inequalities-and-the-politicization-of-ethnic-cleavages-in-botswana-ghana-nigeria-and-senegal-1999-2019-world-inequality-lab-wp-2020-18/">
+17. Social Inequalities and the Politicization of Ethnic Cleavages in
+Botswana, Ghana, Nigeria, and Senegal, 1999-2019</p>
+<p></a></p>
+<p>Jules Baleyte, Amory Gethin, Yajna Govind, Thomas Piketty</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/document/inequality-identity-and-the-long-run-evolution-of-political-cleavages-in-israel-1949-2019-world-inequality-lab-wp-2020-17/">
+18. Inequality, Identity, and the Long-Run Evolution of Political
+Cleavages in Israel 1949-2019</p>
+<p></a></p>
+<p>Yonatan Berman</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wid.world/wp-content/uploads/2021/03/AGPU2021.pdf">
+19. Political Cleavages and Social Inequalities in Algeria, Iraq, and
+Turkey, 1990- 2019</p>
+<p></a></p>
+<p>Lydia Assouad, Amory Gethin, Thomas Piketty, Juliet Uraz</p>
+</div>
+<div class="divresearch">
+<p><a target="_blank" href="https://wpid.world"> Conclusion. Main
+Takeaways and Research Perspectives</p>
+<p></a></p>
+<p>Amory Gethin, Clara Martínez-Toledano, Thomas Piketty</p>
+</div>
+<h2>
+World Political Cleavages and Inequality Database
+</h2>
+<div class="divresearch">
+<p>The <a target="_blank" href="https://wpid.world">World Political
+Cleavages and Inequality Database (WPID)</a> is the result of a
+collaborative research program involving about twenty researchers all
+around the world. The central aim is to provide open and convenient
+access to the most extensive available dataset on the structure of
+political cleavages and social inequalities in electoral democracies,
+located on the five continents, from the mid-20th century to the
+present.</p>
+</div>
+<div class="divresearch">
+<b>Download the data</b>:
+<ol style="line-height: 30px">
+<li>
+<a target="_blank" href="https://wpid.world/resources/en/zip/wpid-macro.zip">Indicators
+on the structure of the vote by political party in 50 democracies,
+1948-2020</a>
+</li>
+<li>
+<a target="_blank" href="https://wpid.world/resources/en/zip/wpid-micro.zip">Harmonized
+microdata on voting behaviors in 50 democracies, 1948-2020</a>
+</li>
+</ol>
+</div>
+<div class="divresearch">
+<p><b>Explore the database</b> using
+<a target="_blank" href="https://explore.wpid.world/">our interactive
+tool</a>!</p>
+</div>
+<h2>
+Reviews
+</h2>
+<div class="divresearch">
+<p>“This book is a breakthrough in the existing literature on the
+politics of social inequality. Not merely is the analysis intensively
+data-based, it goes beyond the usual confines of a small number of
+western democracies to a set of fifty democracies (or semi-democracies)
+in different continents over many decades. The analysis throughout is
+highly sensible, informative, and insightful.”—<b>Pranab Bardhan</b>,
+University of California, Berkeley.</p>
+</div>
+<div class="divresearch">
+<p>“This monumental book presents the first international and historical
+analysis of political cleavages and of their interplay with inequality.
+This is a must-read book for anyone wanting to understand electoral
+politics in today’s democracies—the rise of ‘identity politics’ in some
+countries but not others, and the multiplicity of possible futures for
+the dynamic of inequality.”—<b>Gabriel Zucman</b>, University of
+California, Berkeley.</p>
+</div>
+<div class="divresearch">
+<p>“This impressive book will rapidly become the central reference point
+for systematically charting trends in voting alignment across the globe.
+By including nations from the global South alongside established liberal
+democracies, Gethin and his colleagues challenge endemic Western biases
+in political research and reveal the systematic ways that inequality and
+credentialism have redrawn voting patterns over recent decades. Gethin
+and his coauthors offer exactly the kind of big picture perspective
+which political activists and campaigners, as much as social scientists,
+will hugely appreciate.”—<b>Mike Savage</b>, author of The Return of
+Inequality.</p>
+</div>
+<div class="divresearch">
+<p>“This ambitious collection tackles a set of timely questions about
+the interplay among inequality levels and trends, political preferences
+and electoral behavior, and voters’ demographic and economic
+characteristics. Ideally, the volume will land in the hands of diverse
+audiences concerned with political polarization and social
+inequalities—including multidisciplinary social scientists, political
+actors, and social activists.”—<b>Janet C. Gornick</b>, Director, Stone
+Center on Socio-Economic Inequality at The Graduate Center, City
+University of New York.</p>
+</div>
+<div class="divresearch">
+<p>“Here is a welcome throwback to the ambitious political sociology of
+the mid-twentieth century. The analyses are solid and the geographical
+range is appealingly broad. The authors’ portraits of shifting social
+cleavages raise fascinating questions about the nature and implications
+of ‘class politics’ in the contemporary world.”—<b>Larry M. Bartels</b>,
+Vanderbilt University.</p>
+</div>
+<div class="divresearch">
+<p>“Combining ambition with humility, this volume explores
+cross-national and temporal variation in the structure of political
+cleavages with an eye to explaining the conditions under which income
+and wealth inequality becomes a topic of political contestation (or
+not). Refreshingly, the volume sidesteps longstanding debates among
+political scientists and illustrates how looking for patterns in macro
+data can yield new insights. Harmonizing election surveys from fifty
+countries, the database assembled by Piketty and his collaborators
+itself represents a major contribution.”—<b>Jonas Pontusson</b>,
+University of Geneva.</p>
+</div>
+<h2>
+Translations
+</h2>
+<div class="divresearch">
+<p>French:
+<a target="_blank" href="https://www.seuil.com/ouvrage/clivages-politiques-et-inegalites-sociales-amory-gethin/9782021456479"><em>
+Clivages politiques et inégalités sociales. Une étude de 50 démocraties
+(1948-2020) </em></a> (EHESS/Gallimard/Seuil, 2021).</p>
+</div>
+<div class="divresearch">
+<p>Dutch:
+<a target="_blank" href="https://www.singeluitgeverijen.nl/de-geus/boek/ongelijkheid-en-ons-stemgedrag/"><em>
+Ongelijkheid en ons stemgedrag. Een studie van 50 democratieën van 1948
+tot 2020 </em></a> (De Geus, 2022).</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

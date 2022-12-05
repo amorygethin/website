@@ -1,0 +1,629 @@
+---
+title: "Research"
+---
+
+
+
+<!-- ---------------------------- BOOK ------------------------------------ //-->
+
+<h2> Book </h2>
+
+<!-- BOOK //-->
+<div class="divresearch">
+<a href="book.html">
+Political Cleavages and Social Inequalities A Study of Fifty Democracies, 1948–2020
+</a>
+
+Co-edited with Thomas Piketty and Clara Martínez-Toledano.
+
+<b>Harvard University Press</b>, 2021.
+
+<!-- ----------------------------
+<button data-toggle="collapse" data-target="#abstract_book">	&plus; Back Cover</button>
+<div id="abstract_book" class="collapse">
+Who votes for whom and why? Why has growing inequality in many parts of the world not led to renewed class-based conflicts, and seems instead to have come with the emergence of new divides over identity and integration? News analysts, scholars, and citizens interested in exploring those questions inevitably lack relevant data, in particular the kinds of data that establish historical and international context. Political Cleavages and Social Inequalities provides the missing empirical background, collecting and examining a treasure trove of information on the dynamics of polarization in modern democracies. The chapters draw on a unique set of surveys conducted between 1948 and 2020 in fifty countries on five continents, analyzing the links between voters’ political preferences and socioeconomic characteristics, such as income, education, wealth, occupation, religion, ethnicity, age, and gender. This analysis sheds new light on how political movements succeed in coalescing multiple interests and identities in contemporary democracies. It also helps us understand the conditions under which conflicts over inequality become politically salient, as well as the similarities and constraints of voters supporting ethnonationalist politicians like Narendra Modi, Jair Bolsonaro, Marine Le Pen, and Donald Trump.
+</div>
+//-->
+
+<!-- ---------------------------- PUBLICATIONS ------------------------------------ //-->
+
+<h2> Publications </h2>
+
+<!-- GMP QJE PAPER //-->
+<div class="divresearch">
+<a target="_blank" href="files/pdf/GethinMartinezPiketty2022QJE.pdf">
+Brahmin Left versus Merchant Right: Changing Political Cleavages in 21 Western Democracies, 1948-2020
+</a>
+
+Amory Gethin, Clara Martínez-Toledano, Thomas Piketty
+
+<b>Quarterly Journal of Economics</b>, 2022. Editor's choice. 
+<a target="_blank" class="link2" href="files/pdf/GethinMartinezPiketty2022QJE_appendix.pdf">Appendix</a> /
+<a target="_blank" class="link2" href="https://wpid.world/resources/">Data</a>
+<!-- <a target="_blank" class="link2" href="files/pdf/GethinMartinezPiketty2022QJE_assa_poster.pdf">ASSA Poster</a> //-->
+
+<button data-toggle="collapse" data-target="#gmpqje">	&plus; Abstract</button>
+<div id="gmpqje" class="collapse">
+This article sheds new light on the long-run evolution of political cleavages in 21 Western democracies. We exploit a new database on the socioeconomic determinants of the vote, covering over 300 elections held between 1948 and 2020. In the 1950s and 1960s, the vote for social democratic, socialist, and affiliated parties was associated with lower-educated and low-income voters. It has gradually become associated with higher-educated voters, giving rise in the 2010s to a disconnection between the effects of income and education on the vote: higher-educated voters now vote for the “left,” while high-income voters continue to vote for the “right.” This transition has been accelerated by the rise of green and anti-immigration movements, whose distinctive feature is to concentrate the votes of the higher-educated and lower-educated electorates. Combining our database with historical data on political parties’ programs, we provide evidence that the reversal of the education cleavage is strongly linked to the emergence of a new “sociocultural” axis of political conflict.
+</div>
+
+
+
+<!-- BCG EUROPE PAPER //-->
+<div class="divresearch">
+<a target="_blank" href="files/pdf/BlanchetChancelGethin2022AEJ.pdf">
+Why is Europe More Equal than the United States?
+</a>
+
+Thomas Blanchet, Lucas Chancel, Amory Gethin
+
+<b>American Economic Journal: Applied Economics</b>, 2022. 
+<a target="_blank" class="link2" href="files/pdf/BlanchetChancelGethin2021AEJ_appendix.pdf">Appendix</a>
+<!-- <a target="_blank" class="link2" href="files/pdf/BlanchetChancelGethin2021AEJ_slides.pdf">Slides</a> /  //-->
+<!-- <a target="_blank" class="link2" href="https://www.youtube.com/watch?v=G7J_aywEIs4">Presentation video</a> //-->
+
+<button data-toggle="collapse" data-target="#abstract_bcg">	&plus; Abstract</button>
+<div id="abstract_bcg" class="collapse">
+This article combines all available survey, income tax, and national accounts data to produce pretax and posttax income inequality series in twenty-six European countries from 1980 to 2017. Our estimates are consistent with macroeconomic growth rates and comparable with US distributional national accounts. Inequality grew in nearly all European countries, but much less than in the US. This rise was concentrated at the top end of the income distribution and was most pronounced in Eastern Europe. Contrary to a widespread view, we demonstrate that Europe’s lower inequality levels cannot be explained by more equalizing tax-and-transfer systems. After accounting for indirect taxes and in-kind transfers, the US redistributes a greater share of national income to low-income groups than any European country. “Predistribution”, not “redistribution”, explains why Europe is less unequal than the United States.
+</div>
+
+
+<!-- WEALTH SOUTH AFRICA //-->
+<div class="divresearch">
+<a target="_blank" href="files/pdf/ChatterjeeCzajkaGethin2021WBER.pdf">
+Wealth Inequality in South Africa, 1993-2017
+</a>
+
+Aroop Chatterjee, Léo Czajka, Amory Gethin
+
+<b>World Bank Economic Review</b>, 2022. 
+<a target="_blank" class="link2" href="files/pdf/ChatterjeeCzajkaGethin2021WBER_appendix.pdf">Appendix</a>
+<!-- <a target="_blank" class="link2" href="files/pdf/ChatterjeeCzajkaGethin2022WBER_slides.pdf">Slides</a> //-->
+
+<button data-toggle="collapse" data-target="#abstract_sawealth">	&plus; Abstract</button>
+<div id="abstract_sawealth" class="collapse">
+This article estimates the distribution of personal wealth in South Africa by combining microdata covering the universe of income tax returns, household surveys, and macroeconomic balance sheet statistics. South Africa is characterized by unparalleled levels of wealth concentration. The top 10% own 86% of aggregate wealth and the top 0.1% close to one-third. The top 0.01% of the distribution (3,500 individuals) concentrate 15% of household net worth, more than the bottom 90% as a whole. Such levels of inequality can be accounted for in all forms of assets at the top end, including housing, pension funds, and financial assets. There has been no sign of decreasing inequality since the end of apartheid.
+</div>
+
+
+
+<!-- AFRICA //-->
+<div class="divresearch">
+<a target="_blank" href="files/pdf/CCGMR2022.pdf">
+Income Inequality in Africa, 1990-2019: Measurement, Patterns, Determinants
+</a>
+
+Lucas Chancel, Denis Cogneau, Amory Gethin, Alix Myczkowski, Anne-Sophie Robilliard
+
+<b>World Development</b>, forthcoming.
+
+<button data-toggle="collapse" data-target="#abstract_africa">	&plus; Abstract</button>
+<div id="abstract_africa" class="collapse">
+This article estimates the evolution of income inequality in Africa from 1990 to 2019 by combining surveys, tax data, and national accounts. Inequality in Africa is very high: the regional top 10% income share nears 55%, on par with regions characterized by extreme inequality, such as Latin America and India. Most of continent-wide income inequality comes from the within-country component rather than from average income differences between countries. Inequality is highest in Southern Africa and lowest in Northern and Western Africa. It remained fairly stable from 1990 to 2019, with the exception of Southern Africa, where it increased significantly. Among historical determinants, this geographical pattern seems to reveal the long shadow of settler colonialism, at least in Sub-Saharan Africa; the spread of Islam stands out as another robust correlate. The poor quality of the raw data calls for great caution, in particular when analyzing country-level dynamics.
+</div>
+
+
+
+<!-- INDIA VOTING //-->
+<div class="divresearch">
+<a target="_blank" href="http://piketty.pse.ens.fr/files/BanerjeeGethinPiketty2019EPW.pdf">
+Growing Cleavages in India? Evidence from the Changing Structure of Electorates, 1962-2014
+</a>
+
+Abhijit Banerjee, Amory Gethin, Thomas Piketty
+
+<b>Economic and Political Weekly</b>, 2019.
+<a target="_blank" class="link2" href="http://wid.world/wp-content/uploads/2019/03/WID_WORKING_PAPER_2019_5_India.pdf">Working Paper & Appendix</a>
+
+
+<button data-toggle="collapse" data-target="#abstract_indiavoting">	&plus; Abstract</button>
+<div id="abstract_indiavoting" class="collapse">
+This paper combines surveys, election results and social spending data to document a long-run evolution of political cleavages in India. The transition from a dominant-party system to a fragmented system characterized by several smaller regionalist parties and, more recently, the Bharatiya Janata Party, coincides with the rise of religious divisions and the persistence of strong caste-based cleavages. Education, income and occupation play a diminishing role (controlling for caste) in determining voters’ choices. There is no evidence of the new party system being associated with changes in social policy. This corroborates the fact that in India, as in many Western democracies, political conflicts are increasingly focused on identity and religious–ethnic conflicts rather than on tangible material benefits and class-based redistribution.
+</div>
+
+
+
+
+<!-- ---------------------------- WORKING PAPERS ------------------------------------ //-->
+
+<h2> Working Papers </h2>
+
+<div class="divresearch">
+<a href="">
+Revisiting Global Poverty Reduction: Public-Private Complementarities and the Rise of Public Goods
+</a>
+
+<em>Draft available upon request.</em>
+
+<button data-toggle="collapse" data-target="#abstract_jmp">	&plus; Abstract</button>
+<div id="abstract_jmp" class="collapse">
+This article studies the role of public goods in reducing global poverty. I construct a new historical database covering the cost, progressivity, and productivity of public services provided worldwide. Public goods are large and have considerably grown: they represent 30% of global GDP today and have doubled in real value since 1980. Nearly all public services reduce inequality, but with significant variations. Education and health transfers are the most progressive, whereas police and transport services are received in greater proportion by high-income groups. The rise of public goods has been a major driver of inclusive growth. It accounts for at least 20% of global poverty reduction and 30% of the decline in global inequality of the past four decades. Poor countries continue nonetheless to suffer from a “triple curse” of providing public services in lower quantities, less progressively, and less efficiently than in the rich world, which considerably limits the incidence of public goods on global poverty. I outline proposals to incorporate estimates of public goods delivery in international poverty and inequality statistics.
+</div>
+
+
+<div class="divresearch">
+<a href="">
+Who Benefits from Public Goods? Evidence from South Africa
+</a>
+
+<em>Draft available upon request.</em>
+
+<button data-toggle="collapse" data-target="#abstract_sapublicgoods">	&plus; Abstract</button>
+<div id="abstract_sapublicgoods" class="collapse">
+This article provides new evidence on the distributional incidence of public goods. I combine newly digitized budget data with tax data, census microdata, and various surveys to estimate the distribution of all government transfers received by income group in South Africa from 1993 to 2019. My estimates account for changes in the progressivity of different types of policies and allocate all public services to individuals, including education, healthcare, police services, transport infrastructure, housing subsidies, and local government services. All categories of public spending are progressive (less concentrated than income), but with large variations. About 60% of education expenditure is received by the bottom 50%, compared to only 7% of spending on transport infrastructure. There has been a dramatic rise of redistribution since the end of apartheid: the share of national income redistributed to the poorest half of the South African population rose from 11% in 1993 to 18% in 2019. The bulk of this transformation was driven by public goods, which act as a major redistributive tool. In 2019, accounting for public services lifts the share of income received by the bottom 50% from only 6.5% to almost 15%. These findings highlight the critical role played by public services in enhancing inclusive growth in developing economies.
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/wp-content/uploads/2021/09/WorldInequalityLab_WP2021_20_RedistributionSouthAfrica.pdf">
+Can Redistribution Keep Up with Inequality? Evidence from South Africa, 1993-2019
+</a>
+
+Aroop Chatterjee, Léo Czajka, Amory Gethin
+
+<button data-toggle="collapse" data-target="#abstract_saineq">	&plus; Abstract</button>
+<div id="abstract_saineq" class="collapse">
+Can government redistributive policies successfully curb rising inequality and foster inclusive growth in emerging economies? This paper sheds new light on this question by combining survey, tax, and historical administrative data to measure the incidence of taxes and transfers on the distribution of growth in South Africa since the end of the apartheid regime. Our new database is fully consistent with macroeconomic totals reported in the national accounts and allocates the entirety of government revenue and expenditure to individuals, including indirect taxes and in-kind transfers. We document a dramatic divergence in the growth of top and bottom income groups: between 1993 and 2019, the pretax income of the top 1% rose by 50%, while that of the poorest 50% fell by a third. However, the widening of pretax income gaps has been almost fully compensated by the growing size and progressivity of the tax-and-transfer system, effectively mirroring a “chase between rising inequality and enhanced redistribution”. The decline of racial inequalities since the end of apartheid has been entirely driven by the boom of top Black income groups, which is only marginally reduced by taxes and transfers. Our results have important implications for fiscal policy, the measurement of poverty, and the analysis of the link between inequality and growth.
+</div>
+
+
+
+
+
+<!-- ---------------------------- WORK IN PROGRESS ------------------------------------ //-->
+
+<h2> Work in Progress </h2>
+
+<div class="divresearch">
+Social Movements and Public Opinion (with Vincent Pons)
+</div>
+
+<div class="divresearch">
+Global Posttax Income Inequality (with Carmen Durrer de la Sota & Matthew Fisher-Post)
+</div>
+
+<div class="divresearch">
+Racial Inequality in South Africa, 1913-2019 (with Léo Czajka)
+</div>
+
+<div class="divresearch">
+Inflation and Political Preferences (with Clara Martínez-Toledano and José-Luis Peydro)
+</div>
+
+<div class="divresearch">
+Social Bases of Redistribution in India (with Poulomi Chakrabarti)
+</div>
+
+<div class="divresearch">
+Disentangling the Dynamics of Political Change in Western Democracies
+</div>
+
+
+
+<!-- ---------------------------- BOOK CHAPTERS ------------------------------------ //-->
+
+<h2> Book Chapters </h2>
+
+<div class="divresearch">
+<a target="_blank" href="https://wpid.world">
+Introduction. Objectives and Organization of the Book
+</a>
+
+Amory Gethin, Clara Martínez-Toledano, Thomas Piketty
+
+in A. Gethin, C. Martínez-Toledano, T. Piketty (ed.), <em>Political Cleavages and Social Inequalities</em>, 2021.
+</div>
+
+<div class="divresearch">
+<a target="_blank" href="https://wpid.world">
+Political Cleavages and Social Inequalities in 50 Democracies, 1948-2020
+</a>
+
+Amory Gethin, Clara Martínez-Toledano, Thomas Piketty
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/wp-content/uploads/2021/02/WorldInequalityLab_WP2021_05_PoliticalCleavages_AusCanNZ.pdf">
+Political Cleavages, Class Structures, and the Politics of Old and New
+Minorities in Australia, Canada, and New Zealand
+
+</a>
+
+Amory Gethin
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/historical-political-cleavages-and-post-crisis-transformations-in-italy-spain-portugal-and-ireland-1953-2020-world-inequality-lab-wp-2021-01/">
+Historical Political Cleavages and Post-Crisis Transformations in Italy, Spain,
+Portugal and Ireland, 1958-2020
+
+</a>
+
+Luis Bauluz, Amory Gethin, Clara Martínez-Toledano, Marc Morgan
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/wp-content/uploads/2021/03/WorldInequalityLab_WP2021_08_PoliticalCleavages_AustriaBelgiumNLSwitzerland.pdf">
+Party System Transformation and the Structure of Political Cleavages in
+Austria, Belgium, the Netherlands, and Switzerland
+
+</a>
+
+Carmen Durrer de la Sota, Amory Gethin, Clara Martínez-Toledano
+
+in <em>Political Cleavages and Social Inequalities.</em>
+<a target="_blank" class="link2" href="https://wid.world/wp-content/uploads/2021/03/WorldInequalityLab_WP2021_08_PoliticalCleavages_AustriaBelgiumNLSwitzerland_Appendix.pdf">Appendix</a>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/growing-cleavages-in-india-evidence-from-the-changing-structure-of-party-electorates-1962-2014-wid-world-working-paper-2019-05/">
+Caste, Class, and the Changing Political Representation of Social Inequalities
+in India, 1962-2019
+
+</a>
+
+Abhijit Banerjee, Amory Gethin, Thomas Piketty
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/wp-content/uploads/2020/08/WorldInequalityLab_WP2020_16_PakistanPoliticalCleavages.pdf">
+Social Inequality and the Dynamics of Political and Ethnolinguistic Divides
+in Pakistan, 1970-2018
+
+</a>
+
+Amory Gethin, Sultan Mehmood, Thomas Piketty
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/political-cleavages-and-the-representation-of-social-inequalities-in-japan-1953-2017-world-inequality-lab-wp-2021-10/">
+Political Cleavages and the Representation of Social Inequalities in Japan,
+1953-2017
+
+</a>
+
+Amory Gethin
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/democratization-and-the-construction-of-class-cleavages-in-thailand-the-philippines-malaysia-and-indonesia-1992-2019-world-inequality-lab-wp-2021-09/">
+Democratization and the Construction of Class Cleavages in Thailand, the
+Philippines, Malaysia, and Indonesia, 1992-2019
+
+</a>
+
+Amory Gethin, Thanasak Jenmana
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/wp-content/uploads/2021/02/WorldInequalityLab_WP2021_06_PoliticalCleavages_EastAsia.pdf">
+Inequality, Identity, and the Structure of Political Cleavages in South Korea,
+Taiwan, and Hong Kong, 1996-2016
+
+</a>
+
+Carmen Durrer de la Sota, Amory Gethin
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/wp-content/uploads/2021/03/WorldInequalityLab_WP2021_07_PoliticalCleavages_Brazil.pdf">
+Democracy and the Politicization of Inequality in Brazil, 1989-2018
+
+</a>
+
+Amory Gethin, Marc Morgan
+
+in <em>Political Cleavages and Social Inequalities.</em>
+<a target="_blank" class="link2" href="https://wid.world/wp-content/uploads/2021/03/WorldInequalityLab_WP2021_07_PoliticalCleavages_Brazil_Appendix.pdf">Appendix</a>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/extreme-inequality-and-the-structure-of-political-cleavages-in-south-africa-1994-2019-world-inequality-lab-wp-2020-13/">
+Extreme Inequality, Elite Transformation, and the Changing Structure of
+Political Cleavages in South Africa, 1994-2019
+
+</a>
+
+Amory Gethin
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/social-inequalities-and-the-politicization-of-ethnic-cleavages-in-botswana-ghana-nigeria-and-senegal-1999-2019-world-inequality-lab-wp-2020-18/">
+Social Inequalities and the Politicization of Ethnic Cleavages in Botswana,
+Ghana, Nigeria, and Senegal, 1999-2019
+
+</a>
+
+Jules Baleyte, Amory Gethin, Yajna Govind, Thomas Piketty
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/wp-content/uploads/2021/03/AGPU2021.pdf">
+Political Cleavages and Social Inequalities in Algeria, Iraq, and Turkey, 1990-
+2019
+
+</a>
+
+Lydia Assouad, Amory Gethin, Thomas Piketty, Juliet Uraz
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wpid.world">
+Conclusion. Main Takeaways and Research Perspectives 
+
+</a>
+
+Amory Gethin, Clara Martínez-Toledano, Thomas Piketty
+
+in <em>Political Cleavages and Social Inequalities.</em>
+</div>
+
+
+<!-- ---------------------------- BRIEFS ------------------------------------ //-->
+
+<h2> Policy Briefs and Research Notes </h2>
+
+<div class="divresearch">
+<a target="_blank" href="https://ipcig.org/sites/default/files/pub/en/PIF49_Wealth_tax_perspectives_in_a_post_pandemic_world.pdf">
+A Wealth Tax for South Africa: A Proposal to Help Finance COVID-19 Pandemic Measures
+</a>
+
+Aroop Chatterjee, Léo Czajka, Amory Gethin
+
+in <em>Wealth tax: Perspectives in a post-pandemic world</em>, International Policy Centre for Inclusive Growth, 2021/12.
+
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/news-article/a-wealth-tax-for-southafrica/">
+A Wealth Tax for South Africa
+</a>
+
+Aroop Chatterjee, Léo Czajka, Amory Gethin
+
+<em>World Inequality Lab Working Paper 2021/02 / NIHSS Innovative Research Paper</em>, 2021. <a target="_blank" href="https://wid.world/south-africa-wealth-tax-simulator/">
+Wealth Tax Simulator
+</a>
+
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/rising-inequalities-and-political-cleavages-in-spain-on-the-verge-of-new-elections-wid-world-issue-brief-2019-4-2/">
+Rising Inequalities and Political Cleavages in Spain</a>
+
+Amory Gethin, Clara Martínez-Toledano, Marc Morgan
+
+<em>World Inequality Lab Issue Brief 2019/4</em>, 2019. <a target="_blank" href="https://wid.world/document/rising-inequalities-and-political-cleavages-in-spain-on-the-verge-of-new-elections-wid-world-issue-brief-2019-4/">
+[Español]
+</a>
+
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/european-inequality-wil-summary-2019-en-pdf/">
+Has the European model withstood the rise of inequalities?
+</a>
+
+Thomas Blanchet, Lucas Chancel, Amory Gethin
+
+<em>World Inequality Lab Issue Brief 2019/3</em>, 2019. <a target="_blank" href="https://wid.world/document/european-inequality-wil-summary-2019-fr-pdf/">
+[Français]
+</a>
+<a target="_blank" href="http://wid.world/document/european-inequality-wil-summary-2019-de-pdf/">
+[Deutsch]
+</a>
+<a target="_blank" href="http://wid.world/document/european-inequality-wil-summary-2019-es-pdf/">
+[Español]
+</a>
+
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/extreme-inequality-democratisation-and-class-struggles-in-thailand-wid-world-issue-brief-2019-1/">
+Extreme Inequality, Democratisation and Class Struggles in Thailand
+</a>
+
+Thanasak Jenmana, Amory Gethin
+
+<em>World Inequality Lab Issue Brief 2019/1</em>, 2019.
+
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/divided-brazil-hindsights-on-the-growing-politicization-of-inequality-wid-world-issue-brief-2018-3/">
+Brazil Divided: Hindsights on the Growing Politicization of Inequality
+</a>
+
+
+Amory Gethin, Marc Morgan
+
+<em>World Inequality Lab Issue Brief 2018/3</em>, 2018. <a target="_blank" href="https://wid.world/document/le-bresil-divise-retour-sur-la-politisation-croissante-des-inegalites-note-thematique-wid-world-2018-3/">
+[Français]
+</a>
+
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/gethin-a-foreign-incomes-and-foreign-assets-in-comparative-perspective-highlights-from-the-world-inequality-database/">
+Foreign Assets and Incomes in Comparative Perspective
+</a>
+
+Amory Gethin
+
+<em>World Inequality Lab Issue Brief 2018/1</em>, 2018.
+
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="http://www.cepremap.fr/depot/2017/10/2017-09-Anticipations-et-confiance.pdf">
+Confiance et Anticipations au Lendemain de l'Élection Présidentielle de 2017
+</a>
+
+Amory Gethin
+
+<em>Observatoire du Bien-Être, CEPREMAP</em>, 2018.
+
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://shs.hal.science/halshs-01582162/document">
+Du Mal-Être au Vote Extrême
+</a>
+
+Amory Gethin, Thanasak Jenmana
+
+<em>Observatoire du Bien-Être, CEPREMAP</em>, 2017.
+
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="http://www.cepremap.fr/depot/2017/06/google_espace_politique.pdf">
+Google: Espace Politique, Espace de Préoccupations
+</a>
+
+Yann Algan, Elizabeth Beasley, Amory Gethin, Thanasak Jenmana, Claudia Senik
+
+<em>Observatoire du Bien-Être, CEPREMAP</em>, 2017.
+
+</div>
+
+
+
+<!-- ---------------------------- OTHER ------------------------------------ //-->
+
+<h2> Technical Papers and Other Writings </h2>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/building-the-world-political-cleavages-and-inequality-database-a-new-dataset-on-electoral-behaviors-in-50-democracies-1948-2020-world-inequality-lab-technical-note-2021-01/">
+Building the World Political Cleavages and Inequality Database: A New Dataset on Electoral Behaviors in 50 Democracies
+</a>
+
+Amory Gethin, Clara Martínez-Toledano, Thomas Piketty
+
+<em>World Inequality Lab Technical Note 2021/01.</em>
+
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="http://piketty.pse.ens.fr/files/Gethin2018.pdf">
+Cleavage Structures and Distributive Politics
+</a>
+
+<em>Master Thesis directed by Thomas Piketty and Abhijit V. Banerjee, 2018.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/building-global-income-distribution-brick-brick-wid-world-technical-note-2017-5/">
+Building a Global Income Distribution Brick by Brick
+</a>
+
+Lucas Chancel, Amory Gethin
+
+<em>World Inequality Lab Technical Note 2017/5, 2017.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/global-inequality-user-guide-wid-world-technical-note-2017-9/">
+Global Inequality User Guide
+</a>
+
+Lucas Chancel, Amory Gethin
+
+<em>World Inequality Lab Technical Note 2017/9, 2017.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/world-inequality-report-2018-technical-notes-figures-tables-wid-world-working-paper-2017-8/">
+World Inequality Report 2018 Technical Notes for Figures and Tables
+</a>
+
+Lucas Chancel, Richard Clarke, Amory Gethin
+
+<em>World Inequality Lab Technical Note 2017/8, 2017.</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://wid.world/document/world-inequality-report-2018-technical-notes-figures-tables-wid-world-working-paper-2017-8/">
+Qu'apportent les Théories Économiques à la Compréhension du Commerce International ?
+</a>
+
+Amory Gethin, Édouard Mien
+
+<em>Regards Croisés sur l'Economie 2017/2 (n°21): À qui profite la mondialisation ?</em>
+</div>
+
+
+<div class="divresearch">
+<a target="_blank" href="https://controverses.minesparis.psl.eu/public/promo14/promo14_G15/www.controverses-minesparistech-3.fr/_groupe15/index.html">
+L'Écotaxe : la Taxation des Poids Lourds en France
+</a>
+
+Marianne Fresnel, David Futscher-Perreira, Amory Gethin, Esther Raineau-Rispal, Chloé Wren
+
+<em>Projet de Description de Controverse, École des Mines de Paris, 2015.</em>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

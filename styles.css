@@ -1,0 +1,67 @@
+p {
+  margin-top: 1px ;
+  margin-bottom: 1px ;
+}
+
+
+div {
+	text-align:justify;
+	text-justify:values;
+}
+
+.divhome{
+  margin-top: 12px ;
+}
+
+.divresearch{
+  margin-top: 15px ;
+}
+
+.divmedia{
+  line-height: 35px;
+}
+
+/*
+.link2{
+	color: #000000;
+	text-decoration-line: underline; 
+}
+*/
+
+html, body {
+    min-height: 100%;
+}
+
+h2, .h2 {
+	margin-bottom:20px;
+	margin-top:35px;
+	font-size: 25px;
+}
+
+button {
+    border: none;
+    padding: 0!important;
+    margin: 0;
+    text-decoration: none;
+    background: transparent;
+    color: #000000;
+    line-height: 1.3;
+    cursor: pointer;
+    text-align: left;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover{
+    background: transparent;
+}
+
+button:focus {
+    outline: 1px solid transparent;
+}
+
+
+
+
+

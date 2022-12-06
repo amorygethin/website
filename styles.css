@@ -1,3 +1,6 @@
+.author,.title{
+    display: none;
+}
 
 p {
   margin-top: 1px ;

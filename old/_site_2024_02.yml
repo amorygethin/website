@@ -1,0 +1,26 @@
+name: "my-website"
+navbar:
+  title: "<b>Amory Gethin</b>"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Job Market Paper"
+      href: files/pdf/Gethin2023JMP.pdf
+    - text: "Research"
+      href: research.html
+    - text: "Book"
+      href: book.html
+    - text: "Media"
+      href: media.html
+  right:
+    - href: https://ideas.repec.org/f/pge297.html
+      icon: fa-lightbulb
+    - href: https://twitter.com/amorygethin
+      icon: fa-twitter
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    css: styles.css
+    includes:
+      in_header: header.html

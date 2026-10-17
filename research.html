@@ -301,15 +301,38 @@ $(document).ready(function () {
 <h1>
 Research
 </h1>
+<!-- ---------------------------- FILTERS ------------------------------------ //-->
+<h2>
+Filter by Topic
+</h2>
+<div class="paper-filters">
+<button onclick="filterPapers(&#39;all&#39;)">
+All
+</button>
+<button onclick="filterPapers(&#39;world&#39;)">
+World Inequality &amp; Poverty
+</button>
+<button onclick="filterPapers(&#39;inequality&#39;)">
+Inequality &amp; Poverty
+</button>
+<button onclick="filterPapers(&#39;education&#39;)">
+Education
+</button>
+<button onclick="filterPapers(&#39;labor&#39;)">
+Labor
+</button>
+<button onclick="filterPapers(&#39;political&#39;)">
+Political Economy
+</button>
+</div>
 <!-- ---------------------------- PUBLICATIONS ------------------------------------ //-->
 <h2>
 Publications
 </h2>
 <!-- GLOBAL WORKING HOURS //-->
-<div class="divresearch">
+<div class="divresearch paper labor world">
 <p><a target="_blank" href="files/pdf/GethinSaez2026QJE.pdf"> <b>Global
 Working Hours</b> </a></p>
-</div>
 <p><b>Quarterly Journal of Economics</b>, 141(4), 3505–3565, November
 2026.</p>
 <p>with Emmanuel Saez.
@@ -348,11 +371,11 @@ further controlling for working hours regulations. Both social spending
 and working hours regulations are associated with lower hours
 worked.</p>
 </div>
+</div>
 <!-- EDUCATION AND POVERTY REDUCTION //-->
-<div class="divresearch">
+<div class="divresearch paper education">
 <p><a target="_blank" href="files/pdf/GethinHandbookEducation2026.pdf">
 <b>Education and Poverty Reduction</b> </a></p>
-</div>
 <p><b>Research Handbook of Education and Human Capital</b>, ed. H.
 Patrinos and P. Wolf, Edward Elgar, forthcoming.</p>
 <button data-toggle="collapse" data-target="#abstract_handbookeduc">
@@ -376,12 +399,12 @@ educational inequalities persist nonetheless, with important
 implications for global equity and the trajectory of poverty in the 21st
 century.</p>
 </div>
+</div>
 <!-- HUMAN CAPITAL EXPENDITURE //-->
-<div class="divresearch">
+<div class="divresearch paper education world">
 <p><a target="_blank" href="files/pdf/Bhartietal2025JPubEcon.pdf">
 <b>Human Capital, Unequal Opportunities and Productivity Convergence: A
 Global Perspective, 1800-2100</b> </a></p>
-</div>
 <p><b>Journal of Public Economics</b>, 255(1), 1055-1078, March
 2026.</p>
 <p>with Nitin Bharti, Thanasak Jenmana, Zhexun Mo, Thomas Piketty, and
@@ -408,12 +431,12 @@ based on illustrative human capital expenditure trajectories over the
 convergence in human capital expenditure could lead to global
 productivity convergence by 2100.</p>
 </div>
+</div>
 <!-- SOUTH AFRICA PUBLIC GOODS //-->
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="files/pdf/Gethin2026JDE.pdf"> <b>Who
 Benefits from Public Services? Novel Evidence and Implications for
 Inequality Measurement</b> </a></p>
-</div>
 <p><b>Journal of Development Economics</b> 179, 1-20, January
 2026.</b></p>
 <button data-toggle="collapse" data-target="#abstract_sapublicgoods">
@@ -437,12 +460,12 @@ for recent debates on inequality measures consistent with macroeconomic
 growth: typical assumptions made in the literature underestimate the
 rise of redistribution by 60%.</p>
 </div>
+</div>
 <!-- DISTRIBUTIONAL GROWTH ACCOUNTING //-->
-<div class="divresearch">
+<div class="divresearch paper education world">
 <p><a target="_blank" href="files/pdf/Gethin2025QJE.pdf">
 <b>Distributional Growth Accounting: Education and the Reduction of
 Global Poverty, 1980-2019</b> </a></p>
-</div>
 <p><b>Quarterly Journal of Economics</b>, 140(4), 2571–2618, November
 2025.</p>
 <p></b>
@@ -476,11 +499,11 @@ distributional effects of schooling, standard growth accounting methods
 substantially underestimate economic benefits of education for the
 global poor.</p>
 </div>
+</div>
 <!-- HANDBOOK CHAPTER //-->
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="files/pdf/GethinMartinez2025Handbook.pdf">
 <b>Political Cleavages in Contemporary Democracies</b> </a></p>
-</div>
 <p>with Clara Martínez-Toledano</p>
 <p><b>Handbook of Political Economy</b>, ed. D. Acemoglu and J.
 Robinson, North Holland, forthcoming.</b></p>
@@ -518,12 +541,12 @@ with avenues for future research on the drivers of changing political
 cleavages, the effects of cleavage structures on political and economic
 outcomes, and the increasingly global nature of political phenomena.</p>
 </div>
+</div>
 <!-- AFRICA //-->
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="files/pdf/CCGMR2022.pdf"> <b>Income
 Inequality in Africa, 1990-2019: Measurement, Patterns, Determinants</b>
 </a></p>
-</div>
 <p>with Lucas Chancel, Denis Cogneau, Alix Myczkowski, and Anne-Sophie
 Robilliard</p>
 <p><b>World Development</b> 163, 106-162, March 2023. Press:
@@ -547,11 +570,11 @@ geographical pattern seems to reveal the long shadow of settler
 colonialism, at least in Sub-Saharan Africa; the spread of Islam stands
 out as another robust correlate.</p>
 </div>
+</div>
 <!-- BCG EUROPE PAPER //-->
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="files/pdf/BlanchetChancelGethin2022AEJ.pdf">
 <b>Why is Europe More Equal than the United States?</b> </a></p>
-</div>
 <p>with Thomas Blanchet and Lucas Chancel</p>
 <p><b>American Economic Journal: Applied Economics</b> 14(4), 480–518,
 October 2022.
@@ -594,12 +617,12 @@ income to low-income groups than any European country.
 “Predistribution,” not “redistribution,” explains why Europe is less
 unequal than the United States.</p>
 </div>
+</div>
 <!-- GMP QJE PAPER //-->
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="files/pdf/GethinMartinezPiketty2022QJE.pdf">
 <b>Brahmin Left versus Merchant Right: Changing Political Cleavages in
 21 Western Democracies, 1948-2020</b> </a></p>
-</div>
 <p>with Clara Martínez-Toledano and Thomas Piketty</p>
 <p><b>Quarterly Journal of Economics</b> 137(1), 1–48, February 2022.
 Editor’s choice.
@@ -652,11 +675,11 @@ parties’ programs, we provide evidence that the reversal of the
 education cleavage is strongly linked to the emergence of a new
 “sociocultural” axis of political conflict.</p>
 </div>
+</div>
 <!-- WEALTH SOUTH AFRICA //-->
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="files/pdf/ChatterjeeCzajkaGethin2021WBER.pdf">
 <b>Wealth Inequality in South Africa, 1993-2017</b> </a></p>
-</div>
 <p>with Aroop Chatterjee and Léo Czajka</p>
 <p><b>World Bank Economic Review</b> 36(1), 19–36, February 2022.
 <a target="_blank" class="link2" href="files/pdf/ChatterjeeCzajkaGethin2021WBER_appendix.pdf">Appendix</a>.
@@ -689,12 +712,12 @@ all forms of assets at the top end, including housing, pension funds,
 and financial assets. There has been no sign of decreasing inequality
 since the end of apartheid.</p>
 </div>
+</div>
 <!-- INDIA VOTING //-->
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="http://piketty.pse.ens.fr/files/BanerjeeGethinPiketty2019EPW.pdf">
 <b>Growing Cleavages in India? Evidence from the Changing Structure of
 Electorates, 1962-2014</b> </a></p>
-</div>
 <p>with Abhijit Banerjee and Thomas Piketty</p>
 <p><b>Economic and Political Weekly</b> 54(11), 34-44, March 2019.
 <a target="_blank" class="link2" href="http://wid.world/wp-content/uploads/2019/03/WID_WORKING_PAPER_2019_5_India.pdf">Appendix</a>.
@@ -721,15 +744,15 @@ India, as in many Western democracies, political conflicts are
 increasingly focused on identity and religious–ethnic conflicts rather
 than on tangible material benefits and class-based redistribution.</p>
 </div>
+</div>
 <!-- ---------------------------- WORKING PAPERS ------------------------------------ //-->
 <h2>
 Working Papers
 </h2>
 <!-- GOVERNMENT REDISTRIBUTION AND GLOBAL POVERTY REDUCTION //-->
-<div class="divresearch">
+<div class="divresearch paper inequality world">
 <p><a target="_blank" href="files/pdf/GethinFisher2026.pdf">
 <b>Government Redistribution and Global Poverty Reduction</b> </a></p>
-</div>
 <p><b>Revise and Resubmit, Quarterly Journal of Economics</b></p>
 <p>with Matthew Fisher-Post. </b>
 <a target="_blank" href="files/pdf/GethinFisher2026Slides.pdf">Slides</b></a>
@@ -757,11 +780,11 @@ ignoring these in-kind transfers, standard income distribution
 statistics strongly underestimate redistribution in developing countries
 and its contribution to global poverty reduction.</p>
 </div>
+</div>
 <!-- PROTESTS //-->
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="files/pdf/GethinPons2026.pdf"> <b>The
 Limited Effects of U.S. Protests</b> </a></p>
-</div>
 <p>with Vincent Pons. Press:
 <a target="_blank" href="https://www.washingtonpost.com/nation/2024/04/16/pro-palestinian-protests-us-biden/">Washington
 Post</b></a>,
@@ -795,12 +818,12 @@ contention is more impactful than contained demonstrations. However, the
 few BLM protests that turned violent generated political backlash,
 unlike any other.</p>
 </div>
+</div>
 <!-- SOUTH AFRICA INEQUALITY //-->
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="files/pdf/CzajkaGethin2025.pdf"> <b>Racial
 Inequality and Redistribution in Post-Apartheid South Africa</b>
 </a></p>
-</div>
 <p><b>Revise and Resubmit, Journal of the European Economic
 Association</b></p>
 <p>with Léo Czajka.
@@ -825,12 +848,12 @@ to top Black earners. Despite reaching its lowest point in history in
 2019, the racial gap remains extreme by international standards, even
 after redistribution.</p>
 </div>
+</div>
 <!-- CHILDHOOD LEARNING RETURNS //-->
-<div class="divresearch">
+<div class="divresearch paper education">
 <p><a target="_blank" href="files/pdf/DasDhuldhoyaFavaraGethinSanchezSingh2026.pdf">
 <b>Childhood Learning and Adult Earnings in Four Low-and-Middle-Income
 Countries Cohorts</b> </a></p>
-</div>
 <p>with Jishnu Das, Yash Dhuldhoya, Marta Favara, Alan Sánchez, and
 Abhijeet Singh</p>
 <button data-toggle="collapse" data-target="#abstract_learning_lmic">
@@ -862,12 +885,12 @@ these descriptive findings in light of recent causal evidence on the
 learning-to-earnings pipeline and discuss the implications for policy
 investments in FL.</p>
 </div>
+</div>
 <!-- EQUALITY AND DEVELOPMENT //-->
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="https://prod.wid.world/www-site/uploads/2025/10/WorldInequalityLab_WP2025_25_-Equality-and-Development_A-Comparative-Historical-Perspective-1800-2025_Final.pdf">
 <b>Equality and Development: A Comparative and Historical Perspective,
 1800-2025</b> </a></p>
-</div>
 <p>with Thomas Piketty et al.</p>
 <button data-toggle="collapse" data-target="#abstract_equ">
 + Abstract
@@ -887,12 +910,12 @@ higher productivity, particularly in Western and Nordic Europe. We
 discuss the implications for future sustainable development
 strategies.</p>
 </div>
+</div>
 <!-- GLOBAL INEQUALITY BY 2050 //-->
-<div class="divresearch">
+<div class="divresearch paper inequality world">
 <p><a target="_blank" href="files/pdf/BothChancelGethinMohren2025.pdf">
 <b>Global Income Inequality by 2050: Convergence, Redistribution, and
 Climate Change</b> </a></p>
-</div>
 <p>with Philipp Bothe, Lucas Chancel, and Cornelia Mohren. Press:
 <a target="_blank" href="https://www.lemonde.fr/economie/article/2025/05/21/pour-reduire-les-inegalites-mondiales-mieux-vaut-augmenter-les-salaires-minimums-que-les-impots_6607658_3234.html">Le
 Monde</b></a>,
@@ -918,12 +941,12 @@ post-tax redistribution. Climate change is set to exacerbate
 inequalities, potentially offsetting all the increase in the global
 bottom 50% share since 1980.</p>
 </div>
+</div>
 <!-- NEPAL INEQUALITY //-->
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="files/pdf/GethinEtang2026.pdf"> <b>Measuring
 Income Inequality and Redistribution in Low-Income Countries: Evidence
 from Nepal</b> </a></p>
-</div>
 <p>with Alvin Etang.</p>
 <button data-toggle="collapse" data-target="#nepal">
 + Abstract
@@ -950,97 +973,97 @@ low-income countries with scarce data. Our methodology only requires a
 household survey and aggregate tax revenue series by type of tax, making
 it easily applicable across a wide range of countries.</p>
 </div>
+</div>
 <!-- ---------------------------- WORK IN PROGRESS ------------------------------------ //-->
 <h2>
 Selected Work In Progress
 </h2>
-<div class="divresearch">
+<div class="divresearch paper inequality world">
 <p>Trade Globalization and Global Inequality (with Kirill Borusyak,
 Xavier Jaravel, and Gastón Nievas)</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper labor inequality">
 <p>Minimum Wages and Development (with Marie Gardie and Louise
 Paul-Delvaux)</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper labor">
 <p>Child Penalties in Time Use: A Global Perspective (with Gabriela
 Deschamps, Camille Landais, and Gabriel Leite Mariante)</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p>Misperceptions and Preferences for Tax and Transfer Progressivity
 (with Emmanuel Saez and Morten Støstad)</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper inequality world">
 <p>The Potential Gap: How Far is the World from Its Frontier? (with Asim
 Khwaja and Kartik Srivastava)</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper inequality world">
 <p>A Global View on Local Public Services (with Saheel Chodavadia, Jed
 Friedman, and Leora Klapper)</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p>Issue Salience and Multidimensional Politics: Global Evidence (with
 Andrew Lonsdale and Clara Martínez-Toledano)</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p>Global Attitudes Towards the International System (with Maximilian
 Doerfler, Gastón Nievas, and Moritz Odersky)</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper education inequality">
 <p>Education and Inequality in the United States since 1900 (with
 Zachary Bleemer, Bluebery Planterose, and Shinrea Su)</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper education">
 <p>Education and Long-Run Development: Evidence from France (with Tom
 Raster)</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper education">
 <p>School Construction and Development in Africa (with Hamidou
 Diallo)</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper education inequality">
 <p>Education and Inclusive Growth: Simulations and Implications (with
 Jenny Le)</p>
 </div>
-<div class="divresearch">
-<p>Are Education Systems Less Efficient and More Unequal in Poorer
-Countries?</p>
+<div class="divresearch paper education inequality">
+<p>Global Education Equity</p>
 </div>
 <!-- ---------------------------- BOOK ------------------------------------ //-->
 <h2>
 Book
 </h2>
 <!-- BOOK //-->
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a href="book.html"> <b>Political Cleavages and Social Inequalities.
 A Study of Fifty Democracies, 1948–2020</b> </a></p>
-</div>
 <p>Co-edited with Thomas Piketty and Clara Martínez-Toledano.</p>
 <p><b>Harvard University Press</b>, 2021. 656 pages. 19 chapters.</p>
+</div>
 <!-- ---------------------------- BOOK CHAPTERS ------------------------------------ //-->
 <h2>
 Book Chapters
 </h2>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wpid.world"> <b>Introduction.
 Objectives and Organization of the Book</b> </a></p>
 <p>with Clara Martínez-Toledano and Thomas Piketty, in <em>Political
 Cleavages and Social Inequalities</em>, 2021.</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wpid.world"> <b>Political Cleavages
 and Social Inequalities in 50 Democracies, 1948-2020</b> </a></p>
 <p>with Clara Martínez-Toledano and Thomas Piketty, in <em>Political
 Cleavages and Social Inequalities.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/wp-content/uploads/2021/02/WorldInequalityLab_WP2021_05_PoliticalCleavages_AusCanNZ.pdf">
 <b>Political Cleavages, Class Structures, and the Politics of Old and
 New Minorities in Australia, Canada, and New Zealand, 1963-2019</b></p>
 <p></a></p>
 <p>in <em>Political Cleavages and Social Inequalities.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/document/historical-political-cleavages-and-post-crisis-transformations-in-italy-spain-portugal-and-ireland-1953-2020-world-inequality-lab-wp-2021-01/">
 <b>Historical Political Cleavages and Post-Crisis Transformations in
 Italy, Spain, Portugal and Ireland, 1958-2020</b></p>
@@ -1048,7 +1071,7 @@ Italy, Spain, Portugal and Ireland, 1958-2020</b></p>
 <p>with Luis Bauluz, Clara Martínez-Toledano, and Marc Morgan, in
 <em>Political Cleavages and Social Inequalities.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/wp-content/uploads/2021/03/WorldInequalityLab_WP2021_08_PoliticalCleavages_AustriaBelgiumNLSwitzerland.pdf">
 <b>Party System Transformation and the Structure of Political Cleavages
 in Austria, Belgium, the Netherlands, and Switzerland, 1967-2019</b></p>
@@ -1057,7 +1080,7 @@ in Austria, Belgium, the Netherlands, and Switzerland, 1967-2019</b></p>
 <em>Political Cleavages and Social Inequalities.</em>
 <a target="_blank" class="link2" href="https://wid.world/wp-content/uploads/2021/03/WorldInequalityLab_WP2021_08_PoliticalCleavages_AustriaBelgiumNLSwitzerland_Appendix.pdf">Appendix</a></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/document/growing-cleavages-in-india-evidence-from-the-changing-structure-of-party-electorates-1962-2014-wid-world-working-paper-2019-05/">
 <b>Caste, Class, and the Changing Political Representation of Social
 Inequalities in India, 1962-2019</b></p>
@@ -1065,7 +1088,7 @@ Inequalities in India, 1962-2019</b></p>
 <p>with Abhijit Banerjee and Thomas Piketty, in <em>Political Cleavages
 and Social Inequalities.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/wp-content/uploads/2020/08/WorldInequalityLab_WP2020_16_PakistanPoliticalCleavages.pdf">
 <b>Social Inequality and the Dynamics of Political and Ethnolinguistic
 Divides in Pakistan, 1970-2018</b></p>
@@ -1073,14 +1096,14 @@ Divides in Pakistan, 1970-2018</b></p>
 <p>with Sultan Mehmood and Thomas Piketty, in <em>Political Cleavages
 and Social Inequalities.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/document/political-cleavages-and-the-representation-of-social-inequalities-in-japan-1953-2017-world-inequality-lab-wp-2021-10/">
 <b>Political Cleavages and the Representation of Social Inequalities in
 Japan, 1953-2017</b></p>
 <p></a></p>
 <p>in <em>Political Cleavages and Social Inequalities.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/document/democratization-and-the-construction-of-class-cleavages-in-thailand-the-philippines-malaysia-and-indonesia-1992-2019-world-inequality-lab-wp-2021-09/">
 <b>Democratization and the Construction of Class Cleavages in Thailand,
 the Philippines, Malaysia, and Indonesia, 1992-2019</b></p>
@@ -1088,7 +1111,7 @@ the Philippines, Malaysia, and Indonesia, 1992-2019</b></p>
 <p>with Thanasak Jenmana, in <em>Political Cleavages and Social
 Inequalities.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/wp-content/uploads/2021/02/WorldInequalityLab_WP2021_06_PoliticalCleavages_EastAsia.pdf">
 <b>Inequality, Identity, and Political Cleavages in South Korea, Taiwan,
 and Hong Kong, 1996-2016</b></p>
@@ -1096,7 +1119,7 @@ and Hong Kong, 1996-2016</b></p>
 <p>with Carmen Durrer de la Sota, in <em>Political Cleavages and Social
 Inequalities.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/wp-content/uploads/2021/03/WorldInequalityLab_WP2021_07_PoliticalCleavages_Brazil.pdf">
 <b>Democracy and the Politicization of Inequality in Brazil,
 1989-2018</b></p>
@@ -1105,14 +1128,14 @@ Inequalities.</em></p>
 Inequalities.</em>
 <a target="_blank" class="link2" href="https://wid.world/wp-content/uploads/2021/03/WorldInequalityLab_WP2021_07_PoliticalCleavages_Brazil_Appendix.pdf">Appendix</a></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/document/extreme-inequality-and-the-structure-of-political-cleavages-in-south-africa-1994-2019-world-inequality-lab-wp-2020-13/">
 <b>Extreme Inequality, Elite Transformation, and Changing Political
 Cleavages in South Africa, 1994-2019</b></p>
 <p></a></p>
 <p>in <em>Political Cleavages and Social Inequalities.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/document/social-inequalities-and-the-politicization-of-ethnic-cleavages-in-botswana-ghana-nigeria-and-senegal-1999-2019-world-inequality-lab-wp-2020-18/">
 <b>Social Inequalities and Ethnic Cleavages in Botswana, Ghana, Nigeria,
 and Senegal, 1999-2019</b></p>
@@ -1120,7 +1143,7 @@ and Senegal, 1999-2019</b></p>
 <p>with Jules Baleyte, Yajna Govind, and Thomas Piketty, in
 <em>Political Cleavages and Social Inequalities.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/wp-content/uploads/2021/03/AGPU2021.pdf">
 <b>Political Cleavages and Social Inequalities in Algeria, Iraq, and
 Turkey, 1990-2019</b></p>
@@ -1128,7 +1151,7 @@ Turkey, 1990-2019</b></p>
 <p>with Lydia Assouad, Thomas Piketty, and Juliet Uraz, in <em>Political
 Cleavages and Social Inequalities.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wpid.world"> <b>Conclusion. Main
 Takeaways and Research Perspectives </b></p>
 <p></a></p>
@@ -1140,7 +1163,7 @@ Cleavages and Social Inequalities.</em></p>
 Policy and Research Notes
 </h2>
 <!--
-<div class="divresearch">
+<div class="divresearch paper">
 <a target="_blank" href="https://ipcig.org/sites/default/files/pub/en/PIF49_Wealth_tax_perspectives_in_a_post_pandemic_world.pdf">
 <b>A Wealth Tax for South Africa: A Proposal to Help Finance COVID-19 Pandemic Measures</b>
 </a>
@@ -1152,7 +1175,7 @@ in <em>Wealth tax: Perspectives in a post-pandemic world</em>, International Pol
 </div>
 
 
-<div class="divresearch">
+<div class="divresearch paper">
 <a target="_blank" href="https://wid.world/news-article/a-wealth-tax-for-southafrica/">
 <b>A Wealth Tax for South Africa</b>
 </a>
@@ -1165,7 +1188,7 @@ Wealth Tax Simulator
 
 </div>
 //-->
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/document/rising-inequalities-and-political-cleavages-in-spain-on-the-verge-of-new-elections-wid-world-issue-brief-2019-4-2/">
 <b>Rising Inequalities and Political Cleavages in Spain</b></a></p>
 <p>with Clara Martínez-Toledano and Marc Morgan</p>
@@ -1173,7 +1196,7 @@ Wealth Tax Simulator
 <a target="_blank" href="https://wid.world/document/rising-inequalities-and-political-cleavages-in-spain-on-the-verge-of-new-elections-wid-world-issue-brief-2019-4/">
 [Español] </a></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="https://wid.world/document/european-inequality-wil-summary-2019-en-pdf/">
 <b>Has the European model withstood the rise of inequalities?</b>
 </a></p>
@@ -1186,14 +1209,14 @@ Wealth Tax Simulator
 <a target="_blank" href="http://wid.world/document/european-inequality-wil-summary-2019-es-pdf/">
 [Español] </a></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political inequality">
 <p><a target="_blank" href="https://wid.world/document/extreme-inequality-democratisation-and-class-struggles-in-thailand-wid-world-issue-brief-2019-1/">
 <b>Extreme Inequality, Democratisation and Class Struggles in
 Thailand</b> </a></p>
 <p>with Thanasak Jenmana</p>
 <p><em>World Inequality Lab Issue Brief 2019/1</em>, 2019.</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political inequality">
 <p><a target="_blank" href="https://wid.world/document/divided-brazil-hindsights-on-the-growing-politicization-of-inequality-wid-world-issue-brief-2018-3/">
 <b>Brazil Divided: Hindsights on the Growing Politicization of
 Inequality</b> </a></p>
@@ -1202,24 +1225,24 @@ Inequality</b> </a></p>
 <a target="_blank" href="https://wid.world/document/le-bresil-divise-retour-sur-la-politisation-croissante-des-inegalites-note-thematique-wid-world-2018-3/">
 [Français] </a></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="https://wid.world/document/gethin-a-foreign-incomes-and-foreign-assets-in-comparative-perspective-highlights-from-the-world-inequality-database/">
 <b>Foreign Assets and Incomes in Comparative Perspective</b> </a></p>
 <p><em>World Inequality Lab Issue Brief 2018/1</em>, 2018.</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="http://www.cepremap.fr/depot/2017/10/2017-09-Anticipations-et-confiance.pdf">
 <b>Confiance et Anticipations au Lendemain de l’Élection Présidentielle
 de 2017</b> </a></p>
 <p><em>Observatoire du Bien-Être, CEPREMAP</em>, 2018.</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://shs.hal.science/halshs-01582162/document">
 <b>Du Mal-Être au Vote Extrême</b> </a></p>
 <p>with Thanasak Jenmana</p>
 <p><em>Observatoire du Bien-Être, CEPREMAP</em>, 2017.</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="http://www.cepremap.fr/depot/2017/06/google_espace_politique.pdf">
 <b>Google: Espace Politique, Espace de Préoccupations</b> </a></p>
 <p>with Yann Algan, Elizabeth Beasley, Thanasak Jenmana, and Claudia
@@ -1230,50 +1253,50 @@ Senik</p>
 <h2>
 Technical Papers and Other
 </h2>
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="https://wid.world/document/distributional-national-accounts-dina-guidelines-2025-methods-and-concepts-used-in-the-world-inequality-database/">
 <b>Distributional National Accounts Guidelines</b> </a></p>
 <p>with Lucas Chancel et al., 2025.</p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="files/pdf/Gethin2024PublicSpending.pdf">
 <b>A New Database of General Government Revenue and Expenditure by
 Function, 1980-2022</b> </a></p>
 <p><em>World Inequality Lab Technical Note 2024/01.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political">
 <p><a target="_blank" href="https://wid.world/document/building-the-world-political-cleavages-and-inequality-database-a-new-dataset-on-electoral-behaviors-in-50-democracies-1948-2020-world-inequality-lab-technical-note-2021-01/">
 <b>Building the World Political Cleavages and Inequality Database</b>
 </a></p>
 <p>with Clara Martínez-Toledano and Thomas Piketty</p>
 <p><em>World Inequality Lab Technical Note 2021/01.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper political inequality">
 <p><a target="_blank" href="http://piketty.pse.ens.fr/files/Gethin2018.pdf">
 <b>Cleavage Structures and Distributive Politics</b> </a></p>
 <p><em>Master Thesis directed by Thomas Piketty and Abhijit V. Banerjee,
 2018.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="https://wid.world/document/building-global-income-distribution-brick-brick-wid-world-technical-note-2017-5/">
 <b>Building a Global Income Distribution Brick by Brick</b> </a></p>
 <p>with Lucas Chancel</p>
 <p><em>World Inequality Lab Technical Note 2017/5, 2017.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="https://wid.world/document/global-inequality-user-guide-wid-world-technical-note-2017-9/">
 <b>Global Inequality User Guide</b> </a></p>
 <p>with Lucas Chancel</p>
 <p><em>World Inequality Lab Technical Note 2017/9, 2017.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper inequality">
 <p><a target="_blank" href="https://wid.world/document/world-inequality-report-2018-technical-notes-figures-tables-wid-world-working-paper-2017-8/">
 <b>World Inequality Report 2018 Technical Notes for Figures and
 Tables</b> </a></p>
 <p>with Lucas Chancel and Richard Clarke</p>
 <p><em>World Inequality Lab Technical Note 2017/8, 2017.</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper">
 <p><a target="_blank" href="https://wid.world/document/world-inequality-report-2018-technical-notes-figures-tables-wid-world-working-paper-2017-8/">
 <b>Qu’apportent les Théories Économiques à la Compréhension du Commerce
 International ?</b> </a></p>
@@ -1281,7 +1304,7 @@ International ?</b> </a></p>
 <p><em>Regards Croisés sur l’Economie 2017/2 (n°21): À qui profite la
 mondialisation ?</em></p>
 </div>
-<div class="divresearch">
+<div class="divresearch paper">
 <p><a target="_blank" href="https://controverses.minesparis.psl.eu/public/promo14/promo14_G15/www.controverses-minesparistech-3.fr/_groupe15/index.html">
 <b>L’Écotaxe : la Taxation des Poids Lourds en France</b> </a></p>
 <p>with Marianne Fresnel, David Futscher-Perreira, Esther
@@ -1290,7 +1313,7 @@ Raineau-Rispal, and Chloé Wren</p>
 2015.</em></p>
 </div>
 <!-- WORLD PUBLIC GOODS 
-<div class="divresearch">
+<div class="divresearch paper">
 <a target="_blank" href="files/pdf/Gethin2025PublicServices.pdf">
 <b>Revisiting Global Poverty Reduction: Public Services and the World Distribution of Income, 1980-2022</b>
 </a>
@@ -1302,7 +1325,7 @@ Global poverty and inequality statistics focus on consumption or disposable inco
 
 
 <!-- GLOBAL POSTTAX 
-<div class="divresearch">
+<div class="divresearch paper">
 <a target="_blank" href="files/pdf/FisherGethin2025.pdf">
 <b>Government Redistribution and Development: Global Estimates of Tax-and-Transfer Progressivity, 1980-2023</b>
 </a>
@@ -1316,6 +1339,68 @@ with Matthew Fisher-Post. <a target="_blank" href="https://wid.world/www-site/up
 This article constructs a new database on the distributional incidence of taxes and transfers in 151 countries from 1980 to 2023. We combine household surveys, national accounts, government budgets, tax simulators, and existing fiscal incidence studies to allocate the entirety of tax revenue and public expenditure to individuals. We establish five main findings. First, tax-and-transfer systems reduce inequality in all countries, but with large variations. Second, transfers accounts for 90% of this reduction in inequality, while taxes account for only 10%. Third, redistribution rises with development, but this is entirely due to transfers; tax progressivity is uncorrelated with per-capita income. Fourth, there has been no cross-country convergence in redistribution: fiscal progressivity has increased in Western Europe and the Anglosphere while it has stagnated in Africa. Fifth, differences in pretax inequality (“predistribution”) account for 80% of variations in posttax inequality, while differences in tax-and-transfer systems (“redistribution”) account for 20%.
 </div>
 //-->
+<style>
+.paper-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 15px 0 35px;
+}
+
+.paper-filters button {
+  all: unset;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+  padding: 6px 14px !important;
+  border: 1px solid #d5d9e0 !important;
+  border-radius: 20px !important;
+  color: #555 !important;
+  background: #fff !important;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.paper-filters button:hover {
+  background: #f3f5fa !important;
+  border-color: #9ca9c5 !important;
+}
+
+.paper-filters button.active {
+  background: #607de8 !important;
+  border-color: #607de8 !important;
+  color: white !important;
+}
+
+.paper-filters button:focus-visible {
+  outline: 2px solid #607de8;
+  outline-offset: 3px;
+}
+</style>
+<script>
+let activeFilter = 'all';
+
+function filterPapers(topic) {
+  activeFilter = (activeFilter === topic && topic !== 'all')
+    ? 'all' : topic;
+
+  document.querySelectorAll('.paper').forEach(function(paper) {
+    paper.style.display =
+      activeFilter === 'all' || paper.classList.contains(activeFilter)
+        ? '' : 'none';
+  });
+
+  document.querySelectorAll('.paper-filters button').forEach(function(button) {
+    button.classList.toggle(
+      'active',
+      button.getAttribute('onclick') ===
+        "filterPapers('" + activeFilter + "')"
+    );
+  });
+}
+</script>
 
 
 
